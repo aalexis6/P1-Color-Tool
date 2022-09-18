@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="../Style/colortool.css">
+      <meta charset="UFT-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Lighten | Darken Color</title>
+   </head>
+   <body>
+      <div class="container">
+         <h1 class="title">Lighten/Darken Color</h1>
+     
+         <!-- input color hex -->
+         <label for="hex">Color (Hex)</label>
+         <input type="text" name="hex" id="hexInput" placeholder="#0000">
+
+         <!-- slider -->
+         <label for="slider" id="sliderText">0%</label>
+         <input type="range" min="1" max="100" value="0" class="slider" id="slider" name="slider">
+
+         <p>Input Color</p>
+            <div class="box"></div>
+         <p>Altered Color</p>
+            <div class="box"></div>
+      </div>
+      <script src="../Javascript/colortool.js"></script>
+   </body>
+</html>
